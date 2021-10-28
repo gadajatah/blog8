@@ -5,24 +5,24 @@
                 <!-- Sidenav Menu Heading (Core)-->
                 <div class="sidenav-menu-heading">Main</div>
                 <!-- Sidenav Accordion (Dashboard)-->
-                <a class="nav-link collapsed" href="{{ route('dashboard') }}" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+                <a class="nav-link collapsed" href="{{ route('dashboard') }}">
                     <div class="nav-link-icon"><i data-feather="activity"></i></div>
-                    Dashboards
+                    Dashboard
                 </a>
                 <!-- Sidenav Heading (App Views)-->
                 <div class="sidenav-menu-heading">Menu</div>
                 <!-- Sidenav Accordion (Pages)-->
-                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                <a class="nav-link collapsed" href="{{ route('series.index') }}">
                     <div class="nav-link-icon"><i data-feather="grid"></i></div>
                     Series
                 </a>
                 <!-- Sidenav Accordion (Flows)-->
-                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
+                <a class="nav-link collapsed" href="javascript:void(0);">
                     <div class="nav-link-icon"><i data-feather="repeat"></i></div>
                     Post
                 </a>
 
-                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
+                <a class="nav-link collapsed" href="javascript:void(0);">
                     <div class="nav-link-icon"><i data-feather="repeat"></i></div>
                     Blog
                 </a>

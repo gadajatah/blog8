@@ -5,6 +5,8 @@
         <meta name="author" content="" />
         <title> @yield('title') </title>
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}" />
+        {{-- <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}" /> --}}
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+        @stack('css')
